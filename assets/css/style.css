@@ -867,10 +867,8 @@ border-radius: 10px;
     padding: 20px 0;
   }
 }
-@media (max-width: 575px) {
-  .header__padding-2 {
-    padding: 20px 0;
-  }
+.other-page{
+  height: 50vh!important;
 }
 .header__shadow {
   -webkit-box-shadow: 0px 30px 40px 0px rgba(1, 11, 60, 0.06);
@@ -5586,7 +5584,7 @@ p.checkout-coupon input[type=text]:focus {
 /*  12. ABOUT CSS START
 /*----------------------------------------*/
 .about__thumb img {
-  width: 370px;
+  width: 100%;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
@@ -7250,7 +7248,7 @@ p.checkout-coupon input[type=text]:focus {
 /*  21. PAGE TITLE CSS START
 /*----------------------------------------*/
 .page__title {
-  font-size: 70px;
+  font-size: 45px;
   color: #ffffff;
   line-height: 62px;
   margin-bottom: 0;
@@ -7354,7 +7352,7 @@ p.checkout-coupon input[type=text]:focus {
   padding-right: 13px;
 }
 .page__title-height {
-  min-height: 450px;
+  height:100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

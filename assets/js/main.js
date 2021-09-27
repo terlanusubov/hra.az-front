@@ -108,142 +108,144 @@
   
 	////////////////////////////////////////////////////
     // 08. Testimonial Slider Js
-	var swiper = new Swiper('.testimonial__slider', {
-		navigation: {
-			nextEl: '.swiper-button-next',
-			prevEl: '.swiper-button-prev',
-		},
-	});
+	// var swiper = new Swiper('.testimonial__slider', {
+	// 	navigation: {
+	// 		nextEl: '.swiper-button-next',
+	// 		prevEl: '.swiper-button-prev',
+	// 	},
+	// });
 	
 
 
 	////////////////////////////////////////////////////
     // 09. Slider Js (Home 3)
-	var galleryThumbs = new Swiper('.slider__nav', {
-		spaceBetween: 0,
-		slidesPerView: 4,
-		freeMode: true,
-		watchSlidesVisibility: true,
-		watchSlidesProgress: true,
+	// var galleryThumbs = new Swiper('.slider__nav', {
+	// 	spaceBetween: 0,
+	// 	slidesPerView: 4,
+	// 	freeMode: true,
+	// 	watchSlidesVisibility: true,
+	// 	watchSlidesProgress: true,
 		
-	});
-	var galleryTop = new Swiper('.slider__wrapper', {
-		spaceBetween: 0,
-		effect: 'fade',
-		loop: true,
-		navigation: {
-			nextEl: '.swiper-button-next',
-			prevEl: '.swiper-button-prev',
-		},
-		thumbs: {
-			swiper: galleryThumbs
-		}
-	});
+	// });
+	// var galleryTop = new Swiper('.slider__wrapper', {
+	// 	spaceBetween: 0,
+	// 	effect: 'fade',
+	// 	loop: true,
+	// 	navigation: {
+	// 		nextEl: '.swiper-button-next',
+	// 		prevEl: '.swiper-button-prev',
+	// 	},
+	// 	thumbs: {
+	// 		swiper: galleryThumbs
+	// 	}
+	// });
 
 
 
 
 	////////////////////////////////////////////////////
     // 10. Brand Js
-	var swiper = new Swiper('.brand__slider', {
-		slidesPerView: 6,
-		spaceBetween: 30,
-		centeredSlides: true,
-		loop: true,
-		pagination: {
-			el: '.swiper-pagination',
-			clickable: true,
-		},
-		navigation: {
-			nextEl: '.swiper-button-next',
-			prevEl: '.swiper-button-prev',
-		},
-	});
+	// var swiper = new Swiper('.brand__slider', {
+	// 	slidesPerView: 6,
+	// 	spaceBetween: 30,
+	// 	centeredSlides: true,
+	// 	loop: true,
+	// 	pagination: {
+	// 		el: '.swiper-pagination',
+	// 		clickable: true,
+	// 	},
+	// 	navigation: {
+	// 		nextEl: '.swiper-button-next',
+	// 		prevEl: '.swiper-button-prev',
+	// 	},
+	// });
 
 	////////////////////////////////////////////////////
     // 11. Tesimonial Js
-	var tesimonialThumb = new Swiper('.testimonial-nav', {
-		spaceBetween: 20,
-		slidesPerView: 3,
-		loop: true,
-		freeMode: true,
-		loopedSlides: 3, //looped slides should be the same
-		watchSlidesVisibility: true,
-		watchSlidesProgress: true,
-		centeredSlides: true,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-	  });
-	var testimonialText = new Swiper('.testimonial-text', {
-	spaceBetween: 0,
-	loop: true,
-	loopedSlides: 5, //looped slides should be the same
-	navigation: {
-		nextEl: '.swiper-button-next',
-		prevEl: '.swiper-button-prev',
-	},
-	thumbs: {
-		swiper: tesimonialThumb,
-	},
-	});
+	// var tesimonialThumb = new Swiper('.testimonial-nav', {
+	// 	spaceBetween: 20,
+	// 	slidesPerView: 3,
+	// 	loop: true,
+	// 	freeMode: true,
+	// 	loopedSlides: 3, //looped slides should be the same
+	// 	watchSlidesVisibility: true,
+	// 	watchSlidesProgress: true,
+	// 	centeredSlides: true,
+    //     pagination: {
+    //       el: ".swiper-pagination",
+    //       clickable: true,
+    //     },
+	//   });
+	// var testimonialText = new Swiper('.testimonial-text', {
+	// spaceBetween: 0,
+	// loop: true,
+	// loopedSlides: 5, //looped slides should be the same
+	// navigation: {
+	// 	nextEl: '.swiper-button-next',
+	// 	prevEl: '.swiper-button-prev',
+	// },
+	// thumbs: {
+	// 	swiper: tesimonialThumb,
+	// },
+	// });
 
 	////////////////////////////////////////////////////
    	// 12. Course Slider Js
-	var swiper = new Swiper('.course__slider', {
-	spaceBetween: 30,
-	slidesPerView: 2,
-	breakpoints: {  
-		'768': {
-			slidesPerView: 2,
-		},
-		'576': {
-			slidesPerView: 1,
-		},
-		'0': {
-			slidesPerView: 1,
-		},
-	},
-	pagination: {
-		el: '.swiper-pagination',
-		clickable: true,
-	},
-	});
+	// var swiper = new Swiper('.course__slider', {
+	// spaceBetween: 30,
+	// slidesPerView: 2,
+	// breakpoints: {  
+	// 	'768': {
+	// 		slidesPerView: 2,
+	// 	},
+	// 	'576': {
+	// 		slidesPerView: 1,
+	// 	},
+	// 	'0': {
+	// 		slidesPerView: 1,
+	// 	},
+	// },
+	// pagination: {
+	// 	el: '.swiper-pagination',
+	// 	clickable: true,
+	// },
+	// });
 	
 	////////////////////////////////////////////////////
     // 13. Masonary Js
-	$('.grid').imagesLoaded( function() {
-		// init Isotope
-		var $grid = $('.grid').isotope({
-		  itemSelector: '.grid-item',
-		  percentPosition: true,
-		  masonry: {
-			// use outer width of grid-sizer for columnWidth
-			columnWidth: '.grid-item',
-		  }
-		});
+	
+	
+	// $('.grid').imagesLoaded( function() {
+	// 	// init Isotope
+	// 	var $grid = $('.grid').isotope({
+	// 	  itemSelector: '.grid-item',
+	// 	  percentPosition: true,
+	// 	  masonry: {
+	// 		// use outer width of grid-sizer for columnWidth
+	// 		columnWidth: '.grid-item',
+	// 	  }
+	// 	});
 
 
-	// filter items on button click
-	$('.masonary-menu').on( 'click', 'button', function() {
-	  var filterValue = $(this).attr('data-filter');
-	  $grid.isotope({ filter: filterValue });
-	});
+	// // filter items on button click
+	// $('.masonary-menu').on( 'click', 'button', function() {
+	//   var filterValue = $(this).attr('data-filter');
+	//   $grid.isotope({ filter: filterValue });
+	// });
 
-	//for menu active class
-	$('.masonary-menu button').on('click', function(event) {
-		$(this).siblings('.active').removeClass('active');
-		$(this).addClass('active');
-		event.preventDefault();
-	});
+	// //for menu active class
+	// $('.masonary-menu button').on('click', function(event) {
+	// 	$(this).siblings('.active').removeClass('active');
+	// 	$(this).addClass('active');
+	// 	event.preventDefault();
+	// });
 
-	});
+	// });
 
 
 	////////////////////////////////////////////////////
     // 14. Wow Js
-	new WOW().init();
+	// new WOW().init();
 
 	////////////////////////////////////////////////////
     // 15. Data width Js
@@ -298,10 +300,10 @@
 
 	////////////////////////////////////////////////////
 	// 21. Counter Js
-	$('.counter').counterUp({
-		delay: 10,
-		time: 1000
-	});
+	// $('.counter').counterUp({
+	// 	delay: 10,
+	// 	time: 1000
+	// });
 	
 	////////////////////////////////////////////////////
 	// 22. Parallax Js

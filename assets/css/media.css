@@ -1,0 +1,5 @@
+@media only screen and (max-width:992px){
+    .page__title-height{
+        height:50vh;
+    }
+}
