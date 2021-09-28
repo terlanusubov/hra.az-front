@@ -53,6 +53,14 @@
   box-sizing: border-box;
 }
 
+.dropdown-icon{
+  position: absolute;
+  top:50%;
+  right: -14px;
+  transform: translateY(-50%);
+
+}
+
 body {
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
@@ -1340,19 +1348,7 @@ border-radius: 10px;
 .main-menu ul li.has-dropdown > a {
   position: relative;
 }
-.main-menu ul li.has-dropdown > a::after {
-  content: "\f107";
-  -webkit-transform: translateY(1px);
-  -moz-transform: translateY(1px);
-  -ms-transform: translateY(1px);
-  transform: translateY(1px);
-  font-size: 14px;
-  color: #0e1133;
-  font-family: "Font Awesome 5 Pro";
-  font-weight: 400;
-  margin-left: 5px;
-  display: inline-block;
-}
+
 .main-menu ul li:hover .submenu {
   top: 100%;
   visibility: visible;
